@@ -1,21 +1,21 @@
 Examples of TRUE statements for discovering sqli
-aNd 1=1
-aNd 21=21
-orDeR bY 1
+AND 1=1
+AND 21=21
+ORDER BY 1
 
 Examples of FALSE statements
-dNd 0=1
-anD 9=2
-ordEr bY 1000000000000
+AND 0=1
+AND 9=2
+ORDER BY 1000000000000
 
 Characters to use instead of spaces:
 +, /**/, %20
-Examples: orDeR bY 1 can be re-written as
+Examples: ORDER BY 1 can be re-written as
 orDer+bY+1
 orDer/**/bY/**/1
 orDer%20bY%201
 
-Comments to end the quries:
+Comments to end the queries:
 /*
 //
 #
