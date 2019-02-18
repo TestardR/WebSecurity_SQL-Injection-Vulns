@@ -12,7 +12,7 @@ if(isset($_GET['Submit'])){
     $id = mysql_real_escape_string($id);
 
     if (is_numeric($id)) {
-        // '$id' is surrounded by quotes, anything code that we would inject would be consider as part of the id
+        // '$id' is surrounded by quotes, anything we would inject would be consider as part of the id
         $getid = "SELECT first_name, last_name FROM users WHERE user_id = '$id'";
         $result = mysql_query($getid); // Removed 'or die' to suppres mysql errors
 
